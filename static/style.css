@@ -1,0 +1,74 @@
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Estilos para el encabezado (título) */
+h2 {
+    color: #333;
+}
+
+/* Estilos para los formularios */
+form {
+    background-color: #fff;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para etiquetas de formulario */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Estilos para campos de entrada de texto */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Estilos para botones */
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Estilos para vínculos */
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Estilos para mensajes de error o éxito */
+ul.flash {
+    list-style: none;
+    padding: 0;
+}
+
+ul.flash li {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Estilos para el enlace de registro */
+p a {
+    font-weight: bold;
+}
+
+/* Estilos adicionales si es necesario */
